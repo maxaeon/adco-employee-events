@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Events Planned for Employees of ADCO, by Employees of ADCO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a dark blue background color and some padding to the footer */
+    footer {
+      background-color: gray;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand">ADCO Employee Events</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Hay Ride</a></li>
+        <li><a href="#Contact">Future Events</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="board.jpg" alt="Circuits">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>      
+      </div>
+    </div>
+</div>
+  
+<div class="container text-center">
+  <br>
+  <h1><strong>ADCO Employees</strong></h1>
+  <br><br>
+  <div class="row">
+    <div class="col-sm-4" id="About">
+      <img src="soldering.jpg" class="img-responsive" style="width:100%" alt="Soldering">
+      <h3>About Us</h3><br>
+      <p>We are a group of folks who work on circuit boards Monday through Friday, 7am until 3:30pm, and enjoy socializing and hunting zombies with paint guns outside of work.
+      </p>   
+    </div>
+      <div class="col-sm-4" id="Services"> 
+      <img src="hayride.jpg" style="width:100%" alt="Hay Ride">
+      <h3>Private Zombie Paintball Truck at Blake's</h3>
+        <p><br><a href = "https://when2meet.com/?16829568-2TBZ3">When2Meet Poll</a>
+      </p>  
+    </div>
+      <div class="col-sm-4"  id="Contact"> 
+      <img src="michigan.png" style="width:75%" alt="Michigan">
+      <h3>Have an idea for a future event to display on this page for ADCO employees? Reach out!</h3>
+      <br><p>Email Max:
+      <br><a href = "mailto: maxaeonparks@gmail.com">Send Email</a></p> 
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+  <p>Website by <a href="https://github.com/maxaeon">MaxAeon</a> 2022</p>
+</footer>
+
+</body>
+</html>
